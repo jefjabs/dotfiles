@@ -1,0 +1,10 @@
+source ~/.vim/profiles/plug.vim 
+source ~/.vim/profiles/ctrlp.vim
+source ~/.vim/profiles/lightline.vim 
+source ~/.vim/profiles/main.vim 
+source ~/.vim/profiles/nerdtree.vim 
+source ~/.vim/profiles/ultisnips.vim 
+source ~/.vim/profiles/go.vim 
+source ~/.vim/profiles/ycm.vim
+source ~/.vim/profiles/tmuxline.vim
+source ~/.vim/profiles/main.vim
