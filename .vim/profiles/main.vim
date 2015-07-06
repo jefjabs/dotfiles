@@ -42,3 +42,6 @@ set hidden
 set undofile
 set undodir=~/.vim/undodir
 au BufReadPost *.tss set syntax=javascript
+set lazyredraw
+set ttyfast 
+set scrolloff=5
