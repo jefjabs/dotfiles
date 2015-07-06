@@ -4,7 +4,9 @@ ln -s ~/dotfiles/.vim ~/.vim
 ln -s ~/dotfiles/.vim ~/.nvim
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.vimrc ~/.nvimrc
+ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.bashrc ~/.bashrc
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf 
 ln -s ~/dotfiles/.promptline_cyan_overload.sh ~/.promptline_cyan_overload.sh
-vim -c "PlugInstall | q! | q!"
+vim -c "PlugInstall | qa! "
 ln -s ~/dotfiles/.vim/plugged/vim-colorschemes/colors ~/dotfiles/.vim/colors
