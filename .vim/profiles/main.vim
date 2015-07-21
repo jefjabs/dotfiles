@@ -33,7 +33,7 @@ set smartcase
 set mouse=a
 set hlsearch
 set incsearch
-set list listchars=tab:\›\ ,trail:-
+set list listchars=tab:\›\ ,trail:-,eol:¬
 no <leader>] :tabn<CR>
 no <leader>[ :tabp<CR>
 no <leader>t :tabnew<CR>
