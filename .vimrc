@@ -1,6 +1,6 @@
 source ~/.vim/profiles/plug.vim 
 source ~/.vim/profiles/ctrlp.vim
-source ~/.vim/profiles/lightline.vim 
+"source ~/.vim/profiles/lightline.vim 
 source ~/.vim/profiles/main.vim 
 source ~/.vim/profiles/nerdtree.vim 
 source ~/.vim/profiles/ultisnips.vim 

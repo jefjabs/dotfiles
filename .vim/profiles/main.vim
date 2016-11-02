@@ -47,3 +47,4 @@ set ttyfast
 set scrolloff=5
 iabbrev </ </<C-X><C-O>
 imap <C-Space> <C-X><C-O>
+set ttymouse=xterm2
