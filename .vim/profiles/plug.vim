@@ -1,6 +1,5 @@
 call plug#begin()
 Plug 'flazz/vim-colorschemes'
-Plug 'SirVer/ultisnips'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.sh --clang-completer' }
 Plug 'airblade/vim-gitgutter'
 Plug 'edkolev/promptline.vim'
@@ -32,4 +31,7 @@ Plug 'xsbeats/vim-blade'
 Plug 'fatih/vim-go'
 Plug 'rstacruz/sparkup'
 Plug 'chrisbra/Colorizer'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'SirVer/ultisnips'
 call plug#end()
