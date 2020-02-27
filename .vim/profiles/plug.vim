@@ -34,4 +34,6 @@ Plug 'chrisbra/Colorizer'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'SirVer/ultisnips'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
 call plug#end()

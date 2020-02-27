@@ -59,7 +59,7 @@ function __promptline_vcs_branch {
   if hash git 2>/dev/null; then
     if branch=$( { git symbolic-ref --quiet HEAD || git rev-parse --short HEAD; } 2>/dev/null ); then
       branch=${branch##*/}
-      printf "%s" "${branch_symbol}${branch:-unknown}"
+      #printf "%s" "${branch_symbol}${branch:-unknown}"
       return
     fi
   fi
@@ -114,7 +114,7 @@ function __promptline_left_prompt {
   slice_prefix="${c_bg}${sep}${c_fg}${c_bg}${space}" slice_suffix="$space${c_sep_fg}" slice_joiner="${c_fg}${c_bg}${alt_sep}${space}" slice_empty_prefix="${c_fg}${c_bg}${space}"
   [ $is_prompt_empty -eq 1 ] && slice_prefix="$slice_empty_prefix"
   # section "c" slices
-  __promptline_wrapper "$(__promptline_cwd)" "$slice_prefix" "$slice_suffix" && { slice_prefix="$slice_joiner"; is_prompt_empty=0; }
+  __promptline_wrapper "$(__promptline_cwd)" && { slice_prefix="$slice_joiner"; is_prompt_empty=0; }
 
   # close sections
   printf "%s" "${reset_bg}${sep}$reset$space"
